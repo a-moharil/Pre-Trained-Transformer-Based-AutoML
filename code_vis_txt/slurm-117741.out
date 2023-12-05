@@ -1,0 +1,23 @@
+Reading CSV..
+
+Done Reading..
+
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 130460.47it/s]torch.Size([100, 3, 224, 224])
+Starting VQA..
+
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/TUE/20210962/flava_vqa.py:144 in <module>                              │
+│                                                                              │
+│   141 │   tokenized_question = bert_tokenizer(question)                      │
+│   142 │   token_question_array = np.array(tokenized_question['input_ids'], d │
+│   143 │                                                                      │
+│ ❱ 144 │   question_tensor = torch.tensor(token_question_array)               │
+│   145 │                                                                      │
+│   146 │   vqa_outputs = flava_class_head(text=question_tensor, image=img_ten │
+│   147                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+TypeError: can't convert np.ndarray of type numpy.object_. The only supported 
+types are: float64, float32, float16, complex64, complex128, int64, int32, 
+int16, int8, uint8, and bool.
+/var/spool/slurm/d/job117741/slurm_script: line 6: deactivate: No such file or directory

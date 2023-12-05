@@ -1,0 +1,1279 @@
+Reading CSV..
+
+Done Reading..
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 36759.89it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+/home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2357: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+/home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages/transformers/modeling_utils.py:810: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 80971.12it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 95542.23it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 71331.70it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 49932.19it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 93832.30it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 102801.57it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 98689.51it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 94679.55it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 89430.79it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 52891.60it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 91578.69it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 97997.76it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 108100.62it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 82565.04it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 86302.55it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 47180.02it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 90394.48it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 85598.04it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 85250.08it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 58335.24it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 105916.77it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 79137.81it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 91379.17it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 91980.35it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 80043.97it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 86838.59it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 52891.60it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 50231.19it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 72067.08it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 90785.80it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 82080.31it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 52891.60it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 50533.78it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 82565.04it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 85598.04it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 125577.96it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 95542.23it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 73713.60it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 65128.94it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 83886.08it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 81442.80it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 101067.57it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 105120.40it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 84054.19it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 67108.86it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 52958.38it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 43509.38it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 70849.73it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 85773.09it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 68311.14it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 60611.33it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 35098.78it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 71575.15it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 78988.78it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 78545.02it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 78988.78it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 61141.46it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 78398.21it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 100824.62it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 115864.75it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 81920.00it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 104077.02it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 46345.90it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 75709.46it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 80815.11it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 60090.32it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 62137.84it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 73584.28it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 63743.22it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 57932.38it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 69788.75it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 97541.95it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 74631.74it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 72944.42it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 60611.33it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 37650.84it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 67650.06it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 72944.42it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 98689.51it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 73455.41it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 68089.35it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 67216.41it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 94254.02it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 60176.53it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 68200.07it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 54260.08it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 94466.31it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 65536.00it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 51212.50it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 39907.75it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 41282.52it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 115545.56it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 122282.92it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 120525.98it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 81920.00it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 81442.80it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 58416.49it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 54330.36it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 54899.27it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 68759.08it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 114286.21it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 110960.42it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 39125.97it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 50051.36it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 63840.24it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 59409.41it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 60699.04it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 49171.21it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 51527.08it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 64726.91it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 63167.23it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 58173.43it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 25606.25it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 90200.09it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 61141.46it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 48998.88it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 61862.89it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 59158.03it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 112147.17it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 47608.44it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 56603.29it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 58991.62it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 61052.46it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 49171.21it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 56375.05it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 56073.58it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 55775.32it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 47771.12it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 54120.05it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 48489.06it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 101067.57it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 106997.55it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 57852.47it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 57772.78it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 36663.50it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 54260.08it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 46243.70it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 66156.21it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 111254.75it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 57772.78it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 55480.21it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 54755.93it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 50594.74it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 55775.32it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 52232.93it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 23224.27it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 48884.66it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 55553.70it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 40136.88it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 55406.92it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 48489.06it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 48044.72it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 47074.12it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 48601.44it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 46397.17it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 54755.93it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 50111.16it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 62415.24it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+/var/spool/slurm/d/job117762/slurm_script: line 5: 327531 Killed                  python flava_vqa.py
+/var/spool/slurm/d/job117762/slurm_script: line 6: deactivate: No such file or directory

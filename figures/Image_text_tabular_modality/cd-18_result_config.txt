@@ -1,0 +1,23 @@
+optimsation loops : 5 
+successful trials : 11 
+total trials : 18 
+best objective value : 0.9353 
+best incumbent :       "downstream_model": "weighted_ensemble_r__RF_L1",
+      "pretraining_model": "AlbefFeatureProcessor",
+      "pretraining_task": "ITM",
+      "downstream_task": "regression",
+      "lgbm_max_depth": 9,
+      "lgbm_num_leaves": 268,
+      "pretraining_attention_dropout": 0.18588839010002423,
+      "pretraining_hidden_dropout": 0.23541206938552428,
+      "pretraining_layer_norm_eps": 1.532967907935182e-06,
+      "pretraining_linear_hidden_size": 389,
+      "pretraining_pooling_kernel": 2
+    }
+Obje 
+optimisation budget for each trial : 1200 
+optimisation training data : 15000 
+total training data : 15000 
+optmisation fit percentage : 100% 
+Area Under Learning : 0.5071105861093338 
+Area Under Learning : 0.5047643269920388 

@@ -1,0 +1,21 @@
+Reading CSV..
+
+Done Reading..
+
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 111758.70it/s]torch.Size([100, 3, 224, 224])
+Starting VQA..
+
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/TUE/20210962/flava_vqa.py:140 in <module>                              │
+│                                                                              │
+│   137 │                                                                      │
+│   138 │   tokenized_question = bert_tokenizer(question)                      │
+│   139 │                                                                      │
+│ ❱ 140 │   question_tensor = torch.IntTensor(tokenized_question['input_ids']) │
+│   141 │                                                                      │
+│   142 │   vqa_outputs = flava_class_head(text=question_tensor, image=img_ten │
+│   143                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ValueError: expected sequence of length 7 at dim 1 (got 8)
+/var/spool/slurm/d/job117735/slurm_script: line 6: deactivate: No such file or directory

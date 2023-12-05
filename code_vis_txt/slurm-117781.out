@@ -1,0 +1,131 @@
+Reading CSV..
+
+Done Reading..
+
+0it [00:00, ?it/s]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 2890.63it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+/home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2357: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+/home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages/transformers/modeling_utils.py:810: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+1it [00:05,  5.74s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 5366.31it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+2it [00:10,  5.14s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 5044.87it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+3it [00:14,  4.86s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 4763.55it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+4it [00:19,  4.67s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 4954.29it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+5it [00:23,  4.36s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 4855.64it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+6it [00:27,  4.22s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 5196.76it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+7it [00:31,  4.36s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 5466.32it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+8it [00:36,  4.58s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 4813.85it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+9it [00:41,  4.63s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 4964.26it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+10it [00:46,  4.68s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 4144.98it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+11it [00:51,  4.72s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 3394.82it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+12it [00:56,  4.81s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 4803.92it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+Done Extraction..
+
+
+13it [01:01,  4.88s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 5091.41it/s]torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+

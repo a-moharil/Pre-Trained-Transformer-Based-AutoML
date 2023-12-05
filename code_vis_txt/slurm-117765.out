@@ -1,0 +1,188 @@
+Reading CSV..
+
+Done Reading..
+
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 15592.21it/s]
+torch.Size([10, 3, 224, 224])
+Starting VQA..
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/TUE/20210962/flava_vqa.py:150 in <module>                              │
+│                                                                              │
+│   147 │                                                                      │
+│   148 │   question_tensor = torch.tensor(padded_token_list)                  │
+│   149 │                                                                      │
+│ ❱ 150 │   vqa_outputs = flava_class_head(text=question_tensor, image=img_ten │
+│   151 │                                                                      │
+│   152 │   # collecting the batch loss                                        │
+│   153 │   batch_loss.append(vqa_outputs.loss.item())                         │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchmultimodal/models/flava/model.py:391 in forward                        │
+│                                                                              │
+│   388 │   │   labels: Optional[Tensor] = None,                               │
+│   389 │   │   cls_index: int = 0,                                            │
+│   390 │   ) -> FLAVAForClassificationOutput:                                 │
+│ ❱ 391 │   │   flava_output: FLAVAOutput = self.model(                        │
+│   392 │   │   │   image=image,                                               │
+│   393 │   │   │   text=text,                                                 │
+│   394 │   │   │   required_embedding=required_embedding,                     │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchmultimodal/models/flava/model.py:144 in forward                        │
+│                                                                              │
+│   141 │   │   │   else:                                                      │
+│   142 │   │   │   │   required_embedding = "text"                            │
+│   143 │   │                                                                  │
+│ ❱ 144 │   │   image_encoding_out = self._encode_data_to_embeddings(          │
+│   145 │   │   │   image,                                                     │
+│   146 │   │   │   required_embedding,                                        │
+│   147 │   │   │   ["image", "mm"],                                           │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchmultimodal/models/flava/model.py:274 in _encode_data_to_embeddings     │
+│                                                                              │
+│   271 │   │   ] = TransformerOutput()                                        │
+│   272 │   │                                                                  │
+│   273 │   │   if data is not None and selected_head_encoder in encoder_optio │
+│ ❱ 274 │   │   │   output = encode_callable(data)                             │
+│   275 │   │   return output                                                  │
+│   276 │                                                                      │
+│   277 │   def encode_mm(                                                     │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchmultimodal/models/flava/model.py:234 in encode_image                   │
+│                                                                              │
+│   231 │   │   if image_patches_mask is not None:                             │
+│   232 │   │   │   encoded_image = self.image_encoder(image, image_patches_ma │
+│   233 │   │   else:                                                          │
+│ ❱ 234 │   │   │   encoded_image = self.image_encoder(image)                  │
+│   235 │   │   if projection:                                                 │
+│   236 │   │   │   projected_embeddings = self.image_projection(              │
+│   237 │   │   │   │   encoded_image.last_hidden_state[:, 0, :]               │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchmultimodal/models/flava/image_encoder.py:213 in forward                │
+│                                                                              │
+│   210 │   │   if pixel_values is None:                                       │
+│   211 │   │   │   raise ValueError("You have to specify pixel_values")       │
+│   212 │   │                                                                  │
+│ ❱ 213 │   │   embedding_output = self.embeddings(                            │
+│   214 │   │   │   pixel_values, image_patches_mask=image_patches_mask        │
+│   215 │   │   )                                                              │
+│   216                                                                        │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchmultimodal/models/flava/image_encoder.py:146 in forward                │
+│                                                                              │
+│   143 │   │   interpolate_pos_encoding: bool = False,                        │
+│   144 │   ) -> Tensor:                                                       │
+│   145 │   │   batch_size, num_channels, height, width = pixel_values.shape   │
+│ ❱ 146 │   │   embeddings = self.patch_embeddings(                            │
+│   147 │   │   │   pixel_values, interpolate_pos_encoding=interpolate_pos_enc │
+│   148 │   │   )                                                              │
+│   149                                                                        │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchmultimodal/models/flava/image_encoder.py:64 in forward                 │
+│                                                                              │
+│    61 │   │   │   │   raise ValueError(                                      │
+│    62 │   │   │   │   │   f"Input image size ({height}*{width}) doesn't matc │
+│    63 │   │   │   │   )                                                      │
+│ ❱  64 │   │   x = self.projection(pixel_values).flatten(2).transpose(1, 2)   │
+│    65 │   │   return x                                                       │
+│    66                                                                        │
+│    67                                                                        │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/conv.py:457 in forward                                     │
+│                                                                              │
+│    454 │   │   │   │   │   │   self.padding, self.dilation, self.groups)     │
+│    455 │                                                                     │
+│    456 │   def forward(self, input: Tensor) -> Tensor:                       │
+│ ❱  457 │   │   return self._conv_forward(input, self.weight, self.bias)      │
+│    458                                                                       │
+│    459 class Conv3d(_ConvNd):                                                │
+│    460 │   __doc__ = r"""Applies a 3D convolution over an input signal compo │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/conv.py:453 in _conv_forward                               │
+│                                                                              │
+│    450 │   │   │   return F.conv2d(F.pad(input, self._reversed_padding_repea │
+│    451 │   │   │   │   │   │   │   weight, bias, self.stride,                │
+│    452 │   │   │   │   │   │   │   _pair(0), self.dilation, self.groups)     │
+│ ❱  453 │   │   return F.conv2d(input, weight, bias, self.stride,             │
+│    454 │   │   │   │   │   │   self.padding, self.dilation, self.groups)     │
+│    455 │                                                                     │
+│    456 │   def forward(self, input: Tensor) -> Tensor:                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RuntimeError: Input type (torch.FloatTensor) and weight type 
+(torch.cuda.FloatTensor) should be the same or input should be a MKLDNN tensor 
+and weight is a dense tensor
+/var/spool/slurm/d/job117765/slurm_script: line 6: deactivate: No such file or directory

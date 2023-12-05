@@ -1,0 +1,88 @@
+Processing Df..
+
+Done Processing Df..
+
+reshape position embedding from 256 to 196
+0it [00:00, ?it/s]albef_mod3_pf.py:97: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return [(torch.tensor(dp[0]), dp[1]) for dp in batch]
+1it [00:03,  3.78s/it]2it [00:05,  2.86s/it]3it [00:08,  2.53s/it]4it [00:10,  2.40s/it]5it [00:12,  2.37s/it]6it [00:14,  2.33s/it]7it [00:17,  2.34s/it]8it [00:19,  2.30s/it]9it [00:21,  2.28s/it]10it [00:23,  2.28s/it]11it [00:26,  2.34s/it]12it [00:28,  2.38s/it]13it [00:31,  2.31s/it]14it [00:33,  2.31s/it]15it [00:35,  2.29s/it]16it [00:37,  2.30s/it]17it [00:40,  2.30s/it]18it [00:42,  2.33s/it]19it [00:44,  2.33s/it]20it [00:46,  2.22s/it]21it [00:49,  2.21s/it]22it [00:51,  2.18s/it]23it [00:53,  2.16s/it]24it [00:55,  2.17s/it]25it [00:57,  2.19s/it]26it [01:00,  2.20s/it]27it [01:02,  2.18s/it]28it [01:04,  2.20s/it]29it [01:06,  2.21s/it]30it [01:08,  2.25s/it]31it [01:11,  2.27s/it]32it [01:13,  2.22s/it]33it [01:15,  2.22s/it]33it [01:16,  2.33s/it]
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/TUE/20210962/albef_mod3_pf.py:116 in <module>                          │
+│                                                                              │
+│   113 for idx, batch in tqdm(enumerate(train_loader)):                       │
+│   114 │   #print(batch[batch_idx][modality]) (0: img, 1: caption)            │
+│   115 │   for batch_idx in range(50):                                        │
+│ ❱ 116 │   │   vis_encoding = [vis_processors["eval"](convert_to_PIL(batch[ba │
+│   117 │   │   txt_encoding = [txt_processors["eval"](str(batch[batch_idx][0] │
+│   118 │   │   sample = {"image": vis_encoding[0], "text_input": txt_encoding │
+│   119 │   │   features_multimodal = model.extract_features(sample)           │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /lavis/processors/blip_processors.py:182 in __call__                         │
+│                                                                              │
+│   179 │   │   )                                                              │
+│   180 │                                                                      │
+│   181 │   def __call__(self, item):                                          │
+│ ❱ 182 │   │   return self.transform(item)                                    │
+│   183 │                                                                      │
+│   184 │   @classmethod                                                       │
+│   185 │   def from_config(cls, cfg=None):                                    │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchvision/transforms/transforms.py:94 in __call__                         │
+│                                                                              │
+│     91 │                                                                     │
+│     92 │   def __call__(self, img):                                          │
+│     93 │   │   for t in self.transforms:                                     │
+│ ❱   94 │   │   │   img = t(img)                                              │
+│     95 │   │   return img                                                    │
+│     96 │                                                                     │
+│     97 │   def __repr__(self) -> str:                                        │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchvision/transforms/transforms.py:269 in forward                         │
+│                                                                              │
+│    266 │   │   Returns:                                                      │
+│    267 │   │   │   Tensor: Normalized Tensor image.                          │
+│    268 │   │   """                                                           │
+│ ❱  269 │   │   return F.normalize(tensor, self.mean, self.std, self.inplace) │
+│    270 │                                                                     │
+│    271 │   def __repr__(self) -> str:                                        │
+│    272 │   │   return f"{self.__class__.__name__}(mean={self.mean}, std={sel │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchvision/transforms/functional.py:360 in normalize                       │
+│                                                                              │
+│    357 │   if not isinstance(tensor, torch.Tensor):                          │
+│    358 │   │   raise TypeError(f"img should be Tensor Image. Got {type(tenso │
+│    359 │                                                                     │
+│ ❱  360 │   return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace) │
+│    361                                                                       │
+│    362                                                                       │
+│    363 def resize(                                                           │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torchvision/transforms/functional_tensor.py:959 in normalize                │
+│                                                                              │
+│   956 │   │   mean = mean.view(-1, 1, 1)                                     │
+│   957 │   if std.ndim == 1:                                                  │
+│   958 │   │   std = std.view(-1, 1, 1)                                       │
+│ ❱ 959 │   tensor.sub_(mean).div_(std)                                        │
+│   960 │   return tensor                                                      │
+│   961                                                                        │
+│   962                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RuntimeError: output with shape [1, 224, 224] doesn't match the broadcast shape 
+[3, 224, 224]
+/var/spool/slurm/d/job118578/slurm_script: line 6: deactivate: No such file or directory

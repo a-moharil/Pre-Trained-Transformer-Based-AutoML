@@ -1,0 +1,24 @@
+optimsation loops : 5 
+successful trials : 12 
+total trials : 15 
+best objective value : 0.9256 
+best incumbent : Configuration(values={
+  'catboost_depth': 5,
+  'catboost_iterations': 351,
+  'downstream_model': 'CatBoostClassifier',
+  'downstream_task': 'classification',
+  'pretraining_attention_dropout': 0.1924484354417904,
+  'pretraining_hidden_dropout': 0.017720809870374443,
+  'pretraining_layer_norm_eps': 6.429704631894191e-06,
+  'pretraining_linear_hidden_size': 174,
+  'pretraining_model': 'FlavaTextModel',
+  'pretraining_pooling_kernel': 4,
+  'pretraining_task': 'classification',
+}) 
+optimisation budget for each trial : 1200 
+optimisation training data : 10860 
+total training data : 10860 
+optmisation fit percentage : 100 
+Area Under Learning : 1.1256943192811437 
+Area Under Learning : 0.6415630024404748 
+Area Under Learning : 0.9024118100289257 

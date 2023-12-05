@@ -1,0 +1,187 @@
+Reading CSV..
+
+Done Reading..
+
+0it [00:00, ?it/s]
+  0%|          | 0/50 [00:00<?, ?it/s][A100%|██████████| 50/50 [00:00<00:00, 2776.32it/s]torch.Size([50, 3, 224, 224])
+Starting VQA..
+
+Extracting Embeddings..
+
+
+/home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2357: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+/home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages/transformers/modeling_utils.py:810: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+0it [00:23, ?it/s]
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/TUE/20210962/flava_vqa.py:173 in <module>                              │
+│                                                                              │
+│   170 │   inputs["input_ids_masked"] = inputs["input_ids"].detach().clone()  │
+│   171 │   inputs["bool_masked_pos"] = torch.zeros_like(inputs["bool_masked_p │
+│   172 │   inputs = inputs.to('cuda')                                         │
+│ ❱ 173 │   outputs = flava_model(**inputs)                                    │
+│   174 │   mm_embedding = outputs.multimodal_masked_output.last_hidden_state. │
+│   175 │   mm_embeddings.append(mm_embedding)                                 │
+│   176                                                                        │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /transformers/models/flava/modeling_flava.py:1859 in forward                 │
+│                                                                              │
+│   1856 │   │   │   return_dict=True,                                         │
+│   1857 │   │   )                                                             │
+│   1858 │   │                                                                 │
+│ ❱ 1859 │   │   flava_masked_output = self.flava(                             │
+│   1860 │   │   │   input_ids=input_ids_masked,                               │
+│   1861 │   │   │   pixel_values=pixel_values,                                │
+│   1862 │   │   │   attention_mask=attention_mask,                            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /transformers/models/flava/modeling_flava.py:1388 in forward                 │
+│                                                                              │
+│   1385 │   │   image_mm_projection = None                                    │
+│   1386 │   │   image_output = None                                           │
+│   1387 │   │   if pixel_values is not None:                                  │
+│ ❱ 1388 │   │   │   image_output = self.image_model(                          │
+│   1389 │   │   │   │   pixel_values=pixel_values,                            │
+│   1390 │   │   │   │   bool_masked_pos=bool_masked_pos,                      │
+│   1391 │   │   │   │   attention_mask=image_attention_mask,                  │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /transformers/models/flava/modeling_flava.py:964 in forward                  │
+│                                                                              │
+│    961 │   │   │   pixel_values, bool_masked_pos=bool_masked_pos, interpolat │
+│    962 │   │   )                                                             │
+│    963 │   │                                                                 │
+│ ❱  964 │   │   encoder_outputs = self.encoder(                               │
+│    965 │   │   │   embedding_output,                                         │
+│    966 │   │   │   attention_mask=attention_mask,                            │
+│    967 │   │   │   head_mask=head_mask,                                      │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /transformers/models/flava/modeling_flava.py:681 in forward                  │
+│                                                                              │
+│    678 │   │   │   │   │   layer_head_mask,                                  │
+│    679 │   │   │   │   )                                                     │
+│    680 │   │   │   else:                                                     │
+│ ❱  681 │   │   │   │   layer_outputs = layer_module(hidden_states, attention │
+│    682 │   │   │                                                             │
+│    683 │   │   │   hidden_states = layer_outputs[0]                          │
+│    684                                                                       │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /transformers/models/flava/modeling_flava.py:617 in forward                  │
+│                                                                              │
+│    614 │   │   head_mask: Optional[torch.Tensor] = None,                     │
+│    615 │   │   output_attentions: bool = False,                              │
+│    616 │   ) -> Union[Tuple[torch.Tensor, torch.Tensor], Tuple[torch.Tensor] │
+│ ❱  617 │   │   self_attention_outputs = self.attention(                      │
+│    618 │   │   │   self.layernorm_before(hidden_states),  # in ViT, layernor │
+│    619 │   │   │   attention_mask=attention_mask,                            │
+│    620 │   │   │   head_mask=head_mask,                                      │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /transformers/models/flava/modeling_flava.py:551 in forward                  │
+│                                                                              │
+│    548 │   │   head_mask: Optional[torch.Tensor] = None,                     │
+│    549 │   │   output_attentions: bool = False,                              │
+│    550 │   ) -> Union[Tuple[torch.Tensor, torch.Tensor], Tuple[torch.Tensor] │
+│ ❱  551 │   │   self_outputs = self.attention(                                │
+│    552 │   │   │   hidden_states, attention_mask=attention_mask, head_mask=h │
+│    553 │   │   )                                                             │
+│    554                                                                       │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/nn/modules/module.py:1130 in _call_impl                               │
+│                                                                              │
+│   1127 │   │   # this function, and just call forward.                       │
+│   1128 │   │   if not (self._backward_hooks or self._forward_hooks or self._ │
+│   1129 │   │   │   │   or _global_forward_hooks or _global_forward_pre_hooks │
+│ ❱ 1130 │   │   │   return forward_call(*input, **kwargs)                     │
+│   1131 │   │   # Do not call functions when jit is used                      │
+│   1132 │   │   full_backward_hooks, non_full_backward_hooks = [], []         │
+│   1133 │   │   if self._backward_hooks or _global_backward_hooks:            │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /transformers/models/flava/modeling_flava.py:469 in forward                  │
+│                                                                              │
+│    466 │   │   query_layer = self.transpose_for_scores(mixed_query_layer)    │
+│    467 │   │                                                                 │
+│    468 │   │   # Take the dot product between "query" and "key" to get the r │
+│ ❱  469 │   │   attention_scores = torch.matmul(query_layer, key_layer.transp │
+│    470 │   │                                                                 │
+│    471 │   │   attention_scores = attention_scores / math.sqrt(self.attentio │
+│    472 │   │   if attention_mask is not None:                                │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RuntimeError: CUDA out of memory. Tried to allocate 30.00 MiB (GPU 0; 10.92 GiB 
+total capacity; 10.06 GiB already allocated; 27.38 MiB free; 10.15 GiB reserved 
+in total by PyTorch) If reserved memory is >> allocated memory try setting 
+max_split_size_mb to avoid fragmentation.  See documentation for Memory 
+Management and PYTORCH_CUDA_ALLOC_CONF
+/var/spool/slurm/d/job117777/slurm_script: line 6: deactivate: No such file or directory

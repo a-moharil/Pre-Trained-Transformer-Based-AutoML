@@ -1,0 +1,30 @@
+optimsation loops : 5 
+successful trials : 12 
+total trials : 16 
+best objective value : 0.9353 
+best incumbent : Configuration(values={
+  'catboost_depth': 5,
+  'catboost_iterations': 150,
+  'downstream_model': 'weighted_ensemble_LGB_L1_1',
+  'downstream_task': 'classification',
+  'pretraining_attention_dropout': 0.25,
+  'pretraining_hidden_dropout': 0.25,
+  'pretraining_layer_norm_eps': 5e-06,
+  'pretraining_linear_hidden_size': 256,
+  'pretraining_model': 'FlavaFeatureProcessor',
+  'pretraining_pooling_kernel': 2,
+  'pretraining_task': 'classification',
+})
+Obje 
+optimisation budget for each trial : 1200 
+optimisation training data : 14993 
+total training data : 14993 
+optmisation fit percentage : 100% 
+Area Under Learning : 0.4172050900832478 
+Area Under Learning : 0.8669928732471864 
+Area Under Learning : 0.7757986450408878 
+Area Under Learning : 0.7647332591906824 
+Area Under Learning : 0.754452691749386 
+Area Under Learning : 0.7274685101620222 
+Area Under Learning : 0.7049705285127469 
+Area Under Learning : 0.6982546644666736 

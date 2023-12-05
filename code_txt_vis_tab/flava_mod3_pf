@@ -1,0 +1,6 @@
+#!/bin/bash
+source /home/TUE/20210962/miniconda3/etc/profile.d/conda.sh
+source activate ambarish_base
+export CUDA_VISIBLE_DEVICES=2
+python flava_mod3_pf.py
+source deactivate

@@ -1,0 +1,85 @@
+Reading CSV..
+
+Done Reading..
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/TUE/20210962/flava_vqa.py:117 in <module>                              │
+│                                                                              │
+│   114                                                                        │
+│   115 argmax_func = lambda x: np.argmax(x)                                   │
+│   116                                                                        │
+│ ❱ 117 for idx, batch in enumerate(train_loader):                             │
+│   118 │   img, question, answer = batch                                      │
+│   119 │   question = list(question)                                          │
+│   120                                                                        │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/utils/data/dataloader.py:681 in __next__                              │
+│                                                                              │
+│    678 │   │   │   if self._sampler_iter is None:                            │
+│    679 │   │   │   │   # TODO(https://github.com/pytorch/pytorch/issues/7675 │
+│    680 │   │   │   │   self._reset()  # type: ignore[call-arg]               │
+│ ❱  681 │   │   │   data = self._next_data()                                  │
+│    682 │   │   │   self._num_yielded += 1                                    │
+│    683 │   │   │   if self._dataset_kind == _DatasetKind.Iterable and \      │
+│    684 │   │   │   │   │   self._IterableDataset_len_called is not None and  │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/utils/data/dataloader.py:721 in _next_data                            │
+│                                                                              │
+│    718 │                                                                     │
+│    719 │   def _next_data(self):                                             │
+│    720 │   │   index = self._next_index()  # may raise StopIteration         │
+│ ❱  721 │   │   data = self._dataset_fetcher.fetch(index)  # may raise StopIt │
+│    722 │   │   if self._pin_memory:                                          │
+│    723 │   │   │   data = _utils.pin_memory.pin_memory(data, self._pin_memor │
+│    724 │   │   return data                                                   │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/utils/data/_utils/fetch.py:49 in fetch                                │
+│                                                                              │
+│   46 │                                                                       │
+│   47 │   def fetch(self, possibly_batched_index):                            │
+│   48 │   │   if self.auto_collation:                                         │
+│ ❱ 49 │   │   │   data = [self.dataset[idx] for idx in possibly_batched_index │
+│   50 │   │   else:                                                           │
+│   51 │   │   │   data = self.dataset[possibly_batched_index]                 │
+│   52 │   │   return self.collate_fn(data)                                    │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /torch/utils/data/_utils/fetch.py:49 in <listcomp>                           │
+│                                                                              │
+│   46 │                                                                       │
+│   47 │   def fetch(self, possibly_batched_index):                            │
+│   48 │   │   if self.auto_collation:                                         │
+│ ❱ 49 │   │   │   data = [self.dataset[idx] for idx in possibly_batched_index │
+│   50 │   │   else:                                                           │
+│   51 │   │   │   data = self.dataset[possibly_batched_index]                 │
+│   52 │   │   return self.collate_fn(data)                                    │
+│                                                                              │
+│ /home/TUE/20210962/flava_vqa.py:75 in __getitem__                            │
+│                                                                              │
+│    72 │   │                                                                  │
+│    73 │   │   img_path = self.DIR + self.IMG_TYPE + self.CAT + str(img_name) │
+│    74 │   │                                                                  │
+│ ❱  75 │   │   image = Image.open(img_path)                                   │
+│    76 │   │   if self.transform is not None:                                 │
+│    77 │   │   │   image = self.transform(image)                              │
+│    78 │   │   return image, question, answer                                 │
+│                                                                              │
+│ /home/TUE/20210962/miniconda3/envs/ambarish_base/lib/python3.8/site-packages │
+│ /PIL/Image.py:3227 in open                                                   │
+│                                                                              │
+│   3224 │   │   filename = fp                                                 │
+│   3225 │                                                                     │
+│   3226 │   if filename:                                                      │
+│ ❱ 3227 │   │   fp = builtins.open(filename, "rb")                            │
+│   3228 │   │   exclusive_fp = True                                           │
+│   3229 │                                                                     │
+│   3230 │   try:                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+FileNotFoundError: [Errno 2] No such file or directory: 
+'/home/ambarish/Desktop/scripts/image_text/VQA/images/scene_img_abstract_v002_bi
+nary_train2017/scene_img_abstract_v002_train2017/abstract_v002_train2015_0000000
+00087.png'
+/var/spool/slurm/d/job117733/slurm_script: line 6: deactivate: No such file or directory

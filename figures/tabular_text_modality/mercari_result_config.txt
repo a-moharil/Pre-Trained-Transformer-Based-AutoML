@@ -1,0 +1,20 @@
+optimsation loops : 5 
+successful trials : 12 
+total trials : 15 
+best objective value : 0.9256 
+best incumbent : Configuration(values={
+  'downstream_model': 'weighted_ensemble_r_LGB_L1_3',
+  'downstream_task': 'regression',
+  'pretraining_attention_dropout': 0.24275453496214827,
+  'pretraining_hidden_dropout': 0.34361505969159034,
+  'pretraining_layer_norm_eps': 5.916487841421836e-06,
+  'pretraining_linear_hidden_size': 110,
+  'pretraining_model': 'Data2VecTextModel',
+  'pretraining_pooling_kernel': 2,
+  'pretraining_task': 'ITM',
+} 
+optimisation budget for each trial : 1200 
+optimisation training data : 10000 
+total training data : 100000 
+optmisation fit percentage : 10% 
+Area Under Learning : 0.6339808810711764 

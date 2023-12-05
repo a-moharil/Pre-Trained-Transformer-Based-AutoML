@@ -1,0 +1,101 @@
+Reading DF...
+
+Done Rading...
+
+Starting Pooling...
+
+The max len is 4576
+Done Pooling...
+
+No path specified. Models will be saved in: "AutogluonModels/ag-20230420_121823/"
+Beginning AutoGluon training ... Time limit = 12000s
+AutoGluon will save models to "AutogluonModels/ag-20230420_121823/"
+AutoGluon Version:  0.7.0
+Python Version:     3.8.16
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #242-Ubuntu SMP Fri Apr 16 09:57:56 UTC 2021
+Train Data Rows:    30000
+Train Data Columns: 4576
+Label Column: targets
+Preprocessing data ...
+Using Feature Generators to preprocess the data ...
+Fitting AutoMLPipelineFeatureGenerator...
+	Available Memory:                    317116.04 MB
+	Train Data (Original)  Memory Usage: 549.12 MB (0.2% of available memory)
+	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
+	Stage 1 Generators:
+		Fitting AsTypeFeatureGenerator...
+			Note: Converting 64 features to boolean dtype as they only contain 2 unique values.
+	Stage 2 Generators:
+		Fitting FillNaFeatureGenerator...
+	Stage 3 Generators:
+		Fitting IdentityFeatureGenerator...
+	Stage 4 Generators:
+		Fitting DropUniqueFeatureGenerator...
+	Useless Original Features (Count: 32): ['4544', '4545', '4546', '4547', '4548', '4549', '4550', '4551', '4552', '4553', '4554', '4555', '4556', '4557', '4558', '4559', '4560', '4561', '4562', '4563', '4564', '4565', '4566', '4567', '4568', '4569', '4570', '4571', '4572', '4573', '4574', '4575']
+		These features carry no predictive signal and should be manually investigated.
+		This is typically a feature which has the same value for all rows.
+		These features do not need to be present at inference time.
+	Types of features in original data (raw dtype, special dtypes):
+		('float', []) : 4544 | ['0', '1', '2', '3', '4', ...]
+	Types of features in processed data (raw dtype, special dtypes):
+		('float', [])     : 4480 | ['0', '1', '2', '3', '4', ...]
+		('int', ['bool']) :   64 | ['4480', '4481', '4482', '4483', '4484', ...]
+	32.2s = Fit runtime
+	4544 features in original data used to generate 4544 features in processed data.
+	Train Data (Processed) Memory Usage: 539.52 MB (0.2% of available memory)
+Data preprocessing and feature engineering runtime = 33.83s ...
+AutoGluon will gauge predictive performance using evaluation metric: 'root_mean_squared_error'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	To change this, specify the eval_metric parameter of Predictor()
+AutoGluon will fit 2 stack levels (L1 to L2) ...
+Fitting 11 L1 models ...
+Fitting model: KNeighborsUnif_BAG_L1 ... Training model for up to 7975.45s of the 11965.97s of remaining time.
+	-2.6031	 = Validation score   (-root_mean_squared_error)
+	7.99s	 = Training   runtime
+	50.22s	 = Validation runtime
+Fitting model: KNeighborsDist_BAG_L1 ... Training model for up to 7908.4s of the 11898.89s of remaining time.
+	-2.5437	 = Validation score   (-root_mean_squared_error)
+	8.18s	 = Training   runtime
+	50.56s	 = Validation runtime
+Fitting model: LightGBMXT_BAG_L1 ... Training model for up to 7841.12s of the 11831.64s of remaining time.
+	Fitting 5 child models (S1F1 - S1F5) | Fitting with ParallelLocalFoldFittingStrategy
+	-2.1824	 = Validation score   (-root_mean_squared_error)
+	4797.94s	 = Training   runtime
+	7.57s	 = Validation runtime
+Fitting model: LightGBM_BAG_L1 ... Training model for up to 3014.83s of the 7005.33s of remaining time.
+	Fitting 5 child models (S1F1 - S1F5) | Fitting with ParallelLocalFoldFittingStrategy
+	-2.2231	 = Validation score   (-root_mean_squared_error)
+	2426.69s	 = Training   runtime
+	4.02s	 = Validation runtime
+Fitting model: RandomForestMSE_BAG_L1 ... Training model for up to 572.93s of the 4563.44s of remaining time.
+	-2.606	 = Validation score   (-root_mean_squared_error)
+	3389.42s	 = Training   runtime
+	161.08s	 = Validation runtime
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 797.54s of the 1002.52s of remaining time.
+	-2.1591	 = Validation score   (-root_mean_squared_error)
+	0.78s	 = Training   runtime
+	0.0s	 = Validation runtime
+Fitting 9 L2 models ...
+Fitting model: LightGBMXT_BAG_L2 ... Training model for up to 1001.72s of the 998.93s of remaining time.
+	Fitting 5 child models (S1F1 - S1F5) | Fitting with ParallelLocalFoldFittingStrategy
+	-2.1328	 = Validation score   (-root_mean_squared_error)
+	525.55s	 = Training   runtime
+	3.37s	 = Validation runtime
+Fitting model: LightGBM_BAG_L2 ... Training model for up to 457.18s of the 455.47s of remaining time.
+	Fitting 5 child models (S1F1 - S1F5) | Fitting with ParallelLocalFoldFittingStrategy
+	-2.1297	 = Validation score   (-root_mean_squared_error)
+	326.44s	 = Training   runtime
+	2.97s	 = Validation runtime
+Fitting model: RandomForestMSE_BAG_L2 ... Training model for up to 114.58s of the 112.89s of remaining time.
+	-2.1422	 = Validation score   (-root_mean_squared_error)
+	3945.87s	 = Training   runtime
+	149.5s	 = Validation runtime
+Fitting model: WeightedEnsemble_L3 ... Training model for up to 360.0s of the -3995.19s of remaining time.
+	-2.1226	 = Validation score   (-root_mean_squared_error)
+	0.43s	 = Training   runtime
+	0.0s	 = Validation runtime
+AutoGluon training complete, total runtime = 15996.35s ... Best model: "WeightedEnsemble_L3"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("AutogluonModels/ag-20230420_121823/")
+/var/spool/slurm/d/job117120/slurm_script: line 6: deactivate: No such file or directory

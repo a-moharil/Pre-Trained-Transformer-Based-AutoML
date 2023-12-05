@@ -1,0 +1,6 @@
+Reading CSV..
+
+Done Reading..
+
+0it [00:00, ?it/s]
+  0%|          | 0/500 [00:00<?, ?it/s][A100%|██████████| 500/500 [00:00<00:00, 21203.70it/s]slurmstepd: error: *** JOB 117774 ON calcium CANCELLED AT 2023-05-14T13:46:13 ***

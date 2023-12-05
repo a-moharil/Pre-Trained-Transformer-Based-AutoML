@@ -1,0 +1,22 @@
+optimsation loops : 5 
+successful trials : 14 
+total trials : 20 
+best objective value : 0.8671 
+best incumbent : Configuration(values={
+  'lgbm_depth': 4,
+  'lgbm_num_leaves': 138,
+  'downstream_model': 'weighted_ensemble_XT_L1_2',
+  'downstream_task': 'regression',
+  'pretraining_attention_dropout': 0.40062137440149,
+  'pretraining_hidden_dropout': 0.39124685464340725,
+  'pretraining_layer_norm_eps': 3.421060173004536e-06,
+  'pretraining_linear_hidden_size': 438,
+  'pretraining_model': 'AlbefFeatureProcessor',
+  'pretraining_pooling_kernel': 2,
+  'pretraining_task': 'ITM',
+}) 
+optimisation budget for each trial : 1200 
+optimisation training data : 10000 
+total training data : 30000 
+optmisation fit percentage : 33.33% 
+Area Under Learning : 0.811213475085212 

@@ -1,0 +1,22 @@
+optimsation loops : 5 
+successful trials : 13 
+total trials : 22 
+best objective value : 0.8671 
+best incumbent : Configuration(values={
+  'downstream_model': 'stacked_ensemble_LGB_L1_1',
+  'downstream_task': 'classification',
+  'pretraining_attention_dropout': 0.25085934926957565,
+  'pretraining_hidden_dropout': 0.459721964282398,
+  'pretraining_layer_norm_eps': 9.257607513404272e-06,
+  'pretraining_linear_hidden_size': 374,
+  'pretraining_model': 'AlbefVQA',
+  'pretraining_pooling_kernel': 6,
+  'pretraining_task': 'classification',
+}) 
+optimisation budget for each trial : 1200 
+optimisation training data : 10000 
+total training data : 100000 
+optmisation fit percentage : 10% 
+Area Under Learning : 1.1410393329833908 
+Area Under Learning : 1.4233651210466503 
+Area Under Learning : 0.811213475085212 
